@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppMovies</string>
+
+    <string name="title">Title</string>
+    <string name="releaseDate">Release Date</string>
+    <string name="genre">Genre</string>
+    <string name="vote">Vote</string>
+    <string name="main_search_name">Search</string>
+
+    <string name="main_popular_tab_name">Popular</string>
+    <string name="main_toprated_tab_name">Top Rated</string>
+    <string name="main_upcoming_tab_name">Upcoming</string>
+    <string name="todo">TODO</string>
+
+</resources>

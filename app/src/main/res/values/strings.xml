@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Aplicacion de Peliculas</string>
+
+    <string name="title">Titulo</string>
+    <string name="releaseDate">Estreno</string>
+    <string name="genre">Genero</string>
+    <string name="vote">Voto</string>
+
+    <string name="main_search_name">Buscar</string>
+
+    <string name="main_popular_tab_name">Popular</string>
+    <string name="main_toprated_tab_name">más valorados</string>
+    <string name="main_upcoming_tab_name">Próximo</string>
+    <string name="todo">TODO</string>
+
+</resources>
