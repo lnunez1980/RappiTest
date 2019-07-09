@@ -72,11 +72,7 @@ class DetailMoviesFragment : DialogFragment() {
             dismiss()
         }
 
-        buttonreproducir.setOnClickListener(View.OnClickListener {
-
-        })
-
-    }
+     }
 
     fun ImageView.setImage(url:String){
         Glide.with(this)
