@@ -1,9 +1,10 @@
 package com.e.appmovie.api.model
 
-import com.e.appmovie.database.entities.Movies
+
+import com.e.appmovie.database.entities.MoviesTopRatedRoom
 import com.google.gson.annotations.SerializedName
 
-data class Movie(
+data class MovieTopRated(
     @SerializedName("id") val id: Int,
     @SerializedName("video") val video: Boolean,
     @SerializedName("vote_average") val voteAverage: Double,
@@ -14,7 +15,7 @@ data class Movie(
     @SerializedName("release_date") val releaseDate: String
 ) {
 
-    fun mapToRoomMovie(): Movies {
-        return Movies(id, 1, video, voteAverage, title, posterPath, originalTitle, genre_ids, releaseDate)
+    fun mapToRoomMovietoprated(): MoviesTopRatedRoom {
+        return MoviesTopRatedRoom(id, 1, video, voteAverage, title, posterPath, originalTitle, genre_ids, releaseDate)
     }
 }

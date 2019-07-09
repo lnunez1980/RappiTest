@@ -3,14 +3,21 @@
     <string name="app_name">AppMovies</string>
 
     <string name="title">Title</string>
-    <string name="releaseDate">Release Date</string>
-    <string name="genre">Genre</string>
-    <string name="vote">Vote</string>
+    <string name="releaseDate">Release Date: %1$s</string>
+    <string name="genre">Genre: %1$s</string>
+    <string name="vote">Vote: %1$s</string>
     <string name="main_search_name">Search</string>
 
     <string name="main_popular_tab_name">Popular</string>
     <string name="main_toprated_tab_name">Top Rated</string>
     <string name="main_upcoming_tab_name">Upcoming</string>
     <string name="todo">TODO</string>
+
+    <string name="fragment_title">Title: %1$s</string>
+    <string name="fragment_detail_home_page">Home Page: %1$s</string>
+    <string name="fragment_detail_overview">OverView: %1$s</string>
+    <string name="fragment_button_close">Close</string>
+    <string name="id">id</string>
+    <string name="play">Play Video</string>
 
 </resources>

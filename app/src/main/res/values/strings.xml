@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Aplicacion de Peliculas</string>
 
-    <string name="title">Titulo</string>
-    <string name="releaseDate">Estreno</string>
-    <string name="genre">Genero</string>
-    <string name="vote">Voto</string>
+    <string name="title">Titulo de la Pelicula</string>
+    <string name="releaseDate">Estreno: %1$s</string>
+    <string name="genre">Genero: %1$s</string>
+    <string name="vote">Voto: %1$s</string>
 
     <string name="main_search_name">Buscar</string>
 
@@ -12,5 +12,12 @@
     <string name="main_toprated_tab_name">más valorados</string>
     <string name="main_upcoming_tab_name">Próximo</string>
     <string name="todo">TODO</string>
+
+    <string name="fragment_title">Titulo: : %1$s</string>
+    <string name="fragment_detail_home_page">Sitio Web: : %1$s</string>
+    <string name="fragment_detail_overview">Visión general: : %1$s</string>
+    <string name="fragment_button_close">Cerrar</string>
+    <string name="id">id</string>
+    <string name="play">Reproducir Video</string>
 
 </resources>

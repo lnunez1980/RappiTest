@@ -3,9 +3,10 @@ package com.e.appmovie.database
 import androidx.room.TypeConverter
 
 class Converters {
+
     @TypeConverter
     fun gettingListFromString(genreIds: String): List<Int> {
-        val list : MutableList<Int> = emptyList<Int>().toMutableList()
+        val list: MutableList<Int> = emptyList<Int>().toMutableList()
 
         val array = genreIds.split(",".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
 
